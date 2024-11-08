@@ -1,16 +1,18 @@
-# To create virtual environment
-virtualenv myenv
-myenv\Scripts\activate
+## Python YouTube Downloader - MP4
+  
+### To create virtual environment
+> virtualenv myenv
 
-# 1 Activate Virtual Environment
-myenv\Scripts\activate
+> myenv\Scripts\activate
 
-# 2 To Deactivate Virtual Environment 
-deactivate
+1. Activate Virtual Environment
+> myenv\Scripts\activate
 
-# 3 Install the openai package
+2. To Deactivate Virtual Environment 
+> deactivate
+
+3. Install the Required Packages
+```sh
 pip install streamlit yt-dlp
-
-# To run Streamlit File
-streamlit run youtube_downloader.py
+```
 
